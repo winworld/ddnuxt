@@ -1,0 +1,26 @@
+{
+  "name": "digitaldots",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^1.0.0",
+    "axios": "^0.20.0",
+    "google-maps-api-loader": "^1.1.1",
+    "nuxt": "^2.14.0",
+    "vue-images-loaded": "^1.1.2",
+    "vueisotope": "^3.1.2"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.14.0",
+    "@nuxt/typescript-build": "^2.0.2",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.2"
+  }
+}
